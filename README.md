@@ -1,2 +1,3 @@
 # MlInAction
-this a start for ml
+This a code exercise for ml
+Suggest learn numpy first
