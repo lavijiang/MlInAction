@@ -33,7 +33,6 @@ def setOfWords2Vec(vocabList,inputSet):
     return returnVec
 
 #朴素贝叶斯分类器训练函数
-def trainNB0
 
 
 
