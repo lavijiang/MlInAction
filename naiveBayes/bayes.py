@@ -1,3 +1,5 @@
+from numpy import *
+
 #创建实验样本 postingList是词条分割后的文档集合，classVec类别标签
 def loadDataSet():
     postingList = [['my','dog','has','flea','problems','help','please'],
@@ -30,10 +32,8 @@ def setOfWords2Vec(vocabList,inputSet):
             print("the word: %s is not in my Vocabulary!",word)
     return returnVec
 
+#朴素贝叶斯分类器训练函数
+def trainNB0
 
-listOPosts,listClasses = loadDataSet()
-myVocabList = createVocabList(listOPosts)
-print(myVocabList)
-returnVec = setOfWords2Vec(myVocabList,listOPosts[0])
-print(listOPosts[0])
-print(returnVec)
+
+
